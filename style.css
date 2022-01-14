@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
-    
+    color: #3A3A3A;
 }
 
 /*------ Nav-bar------ */
@@ -27,6 +27,50 @@
     color: #3A3A3A;
     font-weight: bold;
     font-size: 24px;
+}
+
+/*------ section-1------ */
+
+.part-1{
+    display: flex;
+}
+.part-1-body{
+    width: 70%;
+    padding-top: 25px;
+}
+.part-1-body h1{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.part-1-body p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.part-1-body a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.fa-arrow-right{
+    color: white;
+    margin: 5px 0px 0px 7px;
+}
+.part-1-photo{
+    width: 30%;
+    padding-left: 100px;
+}
+.part-1-photo img{
+    width: 340px;
+    height: 314px;
 }
 
 /*---------------------- 
