@@ -87,6 +87,22 @@
     }
 }
 
+/*------ section-1------ */
+@media only screen and (min-width:320px) and (max-width: 668px){
+    .part-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .part-1-body{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .part-1-photo{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
 
 /*------ For Tablet----- */
 
@@ -95,5 +111,21 @@
     .container{
         width: 100%;
         text-align: center;
+    }
+}
+
+/*------ section-1------ */
+@media only screen and (min-width:669px) and (max-width: 1050px){
+    .part-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .part-1-body{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .part-1-photo{
+        width: 100%;
+        padding-left: 0px;
     }
 }
