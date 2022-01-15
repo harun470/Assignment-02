@@ -160,6 +160,17 @@
     }
 }
 
+/*------ Part-2------ */
+@media only screen and (min-width:320px) and (max-width: 668px){
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .title{
+        padding-left: 0px;
+    }
+}
+
 
 /*------ For Tablet----- */
 
@@ -183,6 +194,17 @@
     }
     .part-1-photo{
         width: 100%;
+        padding-left: 0px;
+    }
+}
+
+/*------ Part-2------ */
+@media only screen and (min-width:669px) and (max-width: 1050px){
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .title{
         padding-left: 0px;
     }
 }
